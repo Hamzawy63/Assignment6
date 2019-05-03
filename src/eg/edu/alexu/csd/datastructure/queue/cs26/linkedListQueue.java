@@ -8,9 +8,9 @@ public class linkedListQueue implements IQueue,ILinkedBased {
         ll.add(item);
     }
 
-    public double dequeue () throws IllegalStateException {
+    public Object dequeue() throws IllegalStateException {
         Object tmp = ll.getFirst();
-        if(tmp == null)
+        if (tmp == null)
             throw new IllegalStateException("Queue is empty");
         ll.removeAtFirst();
         return tmp;
@@ -21,7 +21,6 @@ public class linkedListQueue implements IQueue,ILinkedBased {
     }
 
     public int size() {
-        return ll.size();
+        return ll.size;
     }
-
 }

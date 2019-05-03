@@ -24,7 +24,7 @@ public class arrQueue implements IArrayBased, IQueue {
         return size == 0;
     }
 
-    public double dequeue() throws IllegalStateException {
+    public Object dequeue() throws IllegalStateException {
         if (isEmpty())
             throw new IllegalStateException("Queue is Empty");
 

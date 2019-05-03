@@ -9,7 +9,7 @@ public interface IQueue {
      * Removes the object at the queue rear and returns it.
      * @return
      */
-    public double dequeue();
+    public Object dequeue();
     /**
      * Tests if this queue is empty.
      */
