@@ -9,9 +9,7 @@ public class arrQueue implements IArrayBased, IQueue {
     /*
     we will implement the interface using circular queue approach
      */
-    arrQueue(int Capacity) {
-        arr = new Object[Capacity];
-    }
+    arrQueue(int Capacity) { arr = new Object[Capacity];}
 
     public void enqueue(Object item) throws IllegalStateException {
         if ((front == -1 && end == arr.length - 1) || (front == end && front != -1))
