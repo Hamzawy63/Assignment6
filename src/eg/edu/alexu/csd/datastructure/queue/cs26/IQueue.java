@@ -7,8 +7,9 @@ public interface IQueue {
     public void enqueue(Object item);
     /**
      * Removes the object at the queue rear and returns it.
+     * @return
      */
-    public Object dequeue();
+    public double dequeue();
     /**
      * Tests if this queue is empty.
      */
