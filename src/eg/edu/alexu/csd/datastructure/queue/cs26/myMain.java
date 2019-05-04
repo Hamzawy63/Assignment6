@@ -1,6 +1,7 @@
 package eg.edu.alexu.csd.datastructure.queue.cs26;
 
 public class myMain {
+    /*useless comment */
 
     public static void main(String[] args) {
         linkedListQueue q = new linkedListQueue();
